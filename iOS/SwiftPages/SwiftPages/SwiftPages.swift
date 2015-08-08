@@ -73,7 +73,7 @@ class SwiftPages: UIView, UIScrollViewDelegate {
         if (aeroEffectInTopBar) {
             scrollView = UIScrollView(frame: CGRectMake(0, 0, containerView.frame.size.width, containerView.frame.size.height))
         } else {
-            scrollView = UIScrollView(frame: CGRectMake(0, topBarHeight, containerView.frame.size.width, containerView.frame.size.height - topBarHeight))
+            scrollView = UIScrollView(frame: CGRectMake(0, 0, containerView.frame.size.width, containerView.frame.size.height))
         }
         scrollView.pagingEnabled = true
         scrollView.showsHorizontalScrollIndicator = false

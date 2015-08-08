@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Alamofire
 class SecondExampleVC: UIViewController {
 
     @IBOutlet var swiftPagesView: SwiftPages!

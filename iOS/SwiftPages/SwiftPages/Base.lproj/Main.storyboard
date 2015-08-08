@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Roe-iB-8Kd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pNr-Ne-GlT">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="lzl-wN-GI6">
-            <objects>
-                <navigationController id="Roe-iB-8Kd" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EbM-VJ-SMV">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="84J-fT-Qcc" kind="relationship" relationship="rootViewController" id="G1g-VN-UMx"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K8y-rt-hRY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="338" y="-745"/>
-        </scene>
         <!--Swift Pages-->
         <scene sceneID="HzF-vw-gzq">
             <objects>
@@ -33,10 +23,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mKr-Qi-QGu" userLabel="Container View">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mKr-Qi-QGu" userLabel="Container View">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xym-yr-mok">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xym-yr-mok">
                                         <rect key="frame" x="130" y="281" width="340" height="214"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="214" id="oJd-H5-1LZ"/>
@@ -50,7 +40,7 @@
                                             <segue destination="pNr-Ne-GlT" kind="show" id="N1t-Pg-O9d"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGN-vI-c9h">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGN-vI-c9h">
                                         <rect key="frame" x="130" y="41" width="340" height="214"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="214" id="d2D-Kx-ZB1"/>
@@ -91,7 +81,7 @@
         <!--First ExampleVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FirstExampleVC" customModule="SwiftPages" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FirstExampleVC" customModule="Vestorly" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -109,7 +99,7 @@
         <!--Second ExampleVC-->
         <scene sceneID="JGJ-6O-dFy">
             <objects>
-                <viewController id="pNr-Ne-GlT" customClass="SecondExampleVC" customModule="SwiftPages" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="pNr-Ne-GlT" customClass="SecondExampleVC" customModule="Vestorly" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tWS-mh-uOS"/>
                         <viewControllerLayoutGuide type="bottom" id="V2C-5s-2n9"/>
@@ -118,14 +108,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a5Q-fM-4th" customClass="SwiftPages" customModule="SwiftPages" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a5Q-fM-4th" customClass="SwiftPages" customModule="Vestorly" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="a5Q-fM-4th" firstAttribute="top" secondItem="zKe-Ev-gNb" secondAttribute="topMargin" constant="64" id="2Ty-Oh-GPj"/>
+                            <constraint firstItem="a5Q-fM-4th" firstAttribute="top" secondItem="zKe-Ev-gNb" secondAttribute="topMargin" id="2Ty-Oh-GPj"/>
                             <constraint firstAttribute="centerX" secondItem="a5Q-fM-4th" secondAttribute="centerX" id="4Fq-Hm-ySB"/>
                             <constraint firstAttribute="width" secondItem="a5Q-fM-4th" secondAttribute="width" id="Qnq-mb-oyH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="a5Q-fM-4th" secondAttribute="trailing" constant="-16" id="RMB-uO-B3Y"/>
@@ -150,7 +140,7 @@
         <!--Vertical View Controller-->
         <scene sceneID="rKC-yU-oPj">
             <objects>
-                <viewController restorationIdentifier="FirstVC" storyboardIdentifier="FirstVC" id="m4A-9B-3TT" customClass="VerticalViewController" customModule="SwiftPages" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="FirstVC" storyboardIdentifier="FirstVC" id="m4A-9B-3TT" customClass="VerticalViewController" customModule="Vestorly" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hC9-ad-Wdk"/>
                         <viewControllerLayoutGuide type="bottom" id="Dc8-PR-Gdb"/>
@@ -162,9 +152,9 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="UMw-4v-ANb">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <collectionViewLayout key="collectionViewLayout" id="Nc3-eC-WDH" customClass="RAReorderableLayout" customModule="SwiftPages" customModuleProvider="target"/>
+                                <collectionViewLayout key="collectionViewLayout" id="Nc3-eC-WDH" customClass="RAReorderableLayout" customModule="Vestorly" customModuleProvider="target"/>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="verticalCell" id="xMD-VG-IfS" customClass="RACollectionViewCell" customModule="SwiftPages" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="verticalCell" id="xMD-VG-IfS" customClass="RACollectionViewCell" customModule="Vestorly" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -201,10 +191,10 @@
             </objects>
             <point key="canvasLocation" x="91" y="815"/>
         </scene>
-        <!--View Controller-->
+        <!--Search View Controller-->
         <scene sceneID="KWe-Ku-8b4">
             <objects>
-                <viewController restorationIdentifier="SecondVC" storyboardIdentifier="SecondVC" id="PLv-70-roH" sceneMemberID="viewController">
+                <viewController restorationIdentifier="SecondVC" storyboardIdentifier="SecondVC" id="PLv-70-roH" customClass="SearchViewController" customModule="Vestorly" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QVr-A7-oZD"/>
                         <viewControllerLayoutGuide type="bottom" id="EGA-He-oZW"/>
@@ -212,23 +202,6 @@
                     <view key="view" contentMode="scaleToFill" id="iLp-bg-doy">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second VC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mls-LU-lIL">
-                                <rect key="frame" x="194" y="268" width="212" height="63"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="212" id="cdV-1f-UTp"/>
-                                    <constraint firstAttribute="height" constant="63" id="h4P-3u-y70"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="mls-LU-lIL" secondAttribute="centerY" constant="0.5" id="8G4-wX-VDP"/>
-                            <constraint firstAttribute="centerX" secondItem="mls-LU-lIL" secondAttribute="centerX" id="bYj-Kg-IFw"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wwa-f5-6CX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -246,23 +219,6 @@
                     <view key="view" contentMode="scaleToFill" id="Fpl-je-pl0">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third VC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Av7-cS-fhI">
-                                <rect key="frame" x="194" y="268" width="212" height="63"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="63" id="Ti1-wh-n9W"/>
-                                    <constraint firstAttribute="width" constant="212" id="wyU-qQ-ITm"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="Av7-cS-fhI" secondAttribute="centerY" constant="0.5" id="Ucs-Kb-IY5"/>
-                            <constraint firstAttribute="centerX" secondItem="Av7-cS-fhI" secondAttribute="centerX" id="kpE-NW-1Qc"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VIX-1D-XLE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -280,23 +236,6 @@
                     <view key="view" contentMode="scaleToFill" id="xl6-dU-FUN">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fourth VC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pn-fM-Fit">
-                                <rect key="frame" x="194" y="268" width="212" height="63"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="212" id="ajL-1U-WJy"/>
-                                    <constraint firstAttribute="height" constant="63" id="qbq-aW-YnL"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="2pn-fM-Fit" secondAttribute="centerX" id="WMS-fA-ynJ"/>
-                            <constraint firstAttribute="centerY" secondItem="2pn-fM-Fit" secondAttribute="centerY" constant="0.5" id="afN-fq-hUd"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PQ9-p8-mO9" userLabel="First Responder" sceneMemberID="firstResponder"/>
