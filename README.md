@@ -11,3 +11,6 @@ Username = hackathon04@gmail.com
 password = T4ZXmdYv
 
 
+Auth Key
+
+eyJwYXlsb2FkIjoiNTVjNTU0YTA3ZDY4NzhhN2FjMDAwMDAxIiwiY3JlYXRlZF9vbiI6MTQzOTA0NTc5NCwic2lnbmF0dXJlIjoiZGRtaE1ZNFo4c0dFSmdHaVhvZ1lzcVc4VTdGZ1JkaHNkNiswS2ZFYThWST0ifQ

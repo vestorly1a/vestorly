@@ -8,6 +8,13 @@ pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :branch =
 platform :ios, '8.0'
 use_frameworks!
 
-target 'MyApp' do
+target ‘Vestorly’ do
     pod 'SwiftyJSON', '~> 2.2.1'
 end
+
+
+platform :ios, ‘8.0’
+xcodeproj ‘Vestorly.xcodeproj'
+pod 'AFNetworking', '~> 2.1'
+pod 'JSONModel', '~> 1.0'
+pod 'ISO8601'
