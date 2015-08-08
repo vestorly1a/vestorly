@@ -28,6 +28,7 @@
 		64E483BE1B51D21F009BE86A /* Example 1 Button Image Touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E483BC1B51D21F009BE86A /* Example 1 Button Image Touched.png */; };
 		64E483BF1B51D21F009BE86A /* Example 2 Button Image Touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E483BD1B51D21F009BE86A /* Example 2 Button Image Touched.png */; };
 		BB92E9D11B7668920054613E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB92E9D01B7668920054613E /* SwiftyJSON.swift */; };
+		BB98E0A01B767195004D57BE /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98E09F1B767195004D57BE /* PostTableViewCell.swift */; };
 		BBF5265F1B765B1900710765 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF5265E1B765B1900710765 /* Alamofire.framework */; };
 		BBF526631B76602500710765 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF526621B76602500710765 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,7 @@
 		64E483BC1B51D21F009BE86A /* Example 1 Button Image Touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Example 1 Button Image Touched.png"; sourceTree = "<group>"; };
 		64E483BD1B51D21F009BE86A /* Example 2 Button Image Touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Example 2 Button Image Touched.png"; sourceTree = "<group>"; };
 		BB92E9D01B7668920054613E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		BB98E09F1B767195004D57BE /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		BBF5265E1B765B1900710765 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		BBF526621B76602500710765 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		BBF526641B76622800710765 /* Panton-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Panton-Black.otf"; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				BBF526621B76602500710765 /* SearchViewController.swift */,
+				BB98E09F1B767195004D57BE /* PostTableViewCell.swift */,
 				BBF5266D1B76622D00710765 /* Panton */,
 				6467B2EE1B3FA3170071A3FF /* Swift Pages */,
 				64015D951B37A11500A6B549 /* Demo App Files */,
@@ -376,6 +379,7 @@
 				6467B2ED1B3F93B40071A3FF /* SecondExampleVC.swift in Sources */,
 				6467B2EB1B3F939E0071A3FF /* FirstExampleVC.swift in Sources */,
 				6489B02F1B0EDEEA009E6AA4 /* AppDelegate.swift in Sources */,
+				BB98E0A01B767195004D57BE /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
