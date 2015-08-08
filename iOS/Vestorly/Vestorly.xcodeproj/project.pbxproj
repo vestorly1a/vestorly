@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		30250C40242243F512B6535A /* Pods_Vestorly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001D329E107D453575B3D6E5 /* Pods_Vestorly.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B0434E2758B4C1275027CA52 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135A865DAF6B04F3B08EA5B5 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BB94CA7E1B76564E004DBB07 /* SwiftPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94CA7D1B76564E004DBB07 /* SwiftPages.swift */; };
+		BB94CA801B765656004DBB07 /* SecondExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94CA7F1B765656004DBB07 /* SecondExampleVC.swift */; };
 		BBB6C1A91B76552E0052B9D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6C1A81B76552E0052B9D6 /* AppDelegate.swift */; };
 		BBB6C1AC1B76552E0052B9D6 /* Vestorly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BBB6C1AA1B76552E0052B9D6 /* Vestorly.xcdatamodeld */; };
 		BBB6C1AE1B76552E0052B9D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6C1AD1B76552E0052B9D6 /* ViewController.swift */; };
@@ -32,6 +34,8 @@
 		001D329E107D453575B3D6E5 /* Pods_Vestorly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vestorly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		135A865DAF6B04F3B08EA5B5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B2ADE8CDF1A87B026440F83 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BB94CA7D1B76564E004DBB07 /* SwiftPages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPages.swift; sourceTree = "<group>"; };
+		BB94CA7F1B765656004DBB07 /* SecondExampleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondExampleVC.swift; sourceTree = "<group>"; };
 		BBB6C1A31B76552E0052B9D6 /* Vestorly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vestorly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB6C1A71B76552E0052B9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBB6C1A81B76552E0052B9D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				BBB6C1A81B76552E0052B9D6 /* AppDelegate.swift */,
 				BBB6C1AD1B76552E0052B9D6 /* ViewController.swift */,
 				BBB6C1AF1B76552E0052B9D6 /* Main.storyboard */,
+				BB94CA7F1B765656004DBB07 /* SecondExampleVC.swift */,
+				BB94CA7D1B76564E004DBB07 /* SwiftPages.swift */,
 				BBB6C1B21B76552E0052B9D6 /* Images.xcassets */,
 				BBB6C1B41B76552E0052B9D6 /* LaunchScreen.xib */,
 				BBB6C1AA1B76552E0052B9D6 /* Vestorly.xcdatamodeld */,
@@ -295,7 +301,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB94CA7E1B76564E004DBB07 /* SwiftPages.swift in Sources */,
 				BBB6C1AE1B76552E0052B9D6 /* ViewController.swift in Sources */,
+				BB94CA801B765656004DBB07 /* SecondExampleVC.swift in Sources */,
 				BBB6C1A91B76552E0052B9D6 /* AppDelegate.swift in Sources */,
 				BBB6C1AC1B76552E0052B9D6 /* Vestorly.xcdatamodeld in Sources */,
 			);
