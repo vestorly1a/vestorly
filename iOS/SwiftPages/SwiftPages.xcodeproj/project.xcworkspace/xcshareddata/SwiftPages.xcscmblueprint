@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7AAB24F9FD743F130F51D539AD9B282651FF7354",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7AAB24F9FD743F130F51D539AD9B282651FF7354" : 0,
+    "108687B147A292770BAF8DC911377B174155649A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "99FCDEAB-3F29-468A-99C6-66FE7C2B17B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7AAB24F9FD743F130F51D539AD9B282651FF7354" : "SwiftPages",
+    "108687B147A292770BAF8DC911377B174155649A" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftPages",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftPages.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vestorly1a\/vestorly.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "108687B147A292770BAF8DC911377B174155649A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GabrielAlva\/SwiftPages",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7AAB24F9FD743F130F51D539AD9B282651FF7354"
+    }
+  ]
+}
