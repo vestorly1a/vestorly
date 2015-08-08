@@ -14,6 +14,8 @@ class PostViewControllerNew: UIViewController {
         super.viewDidLoad()
         
         titleStuff.text = titleStr
+        titleStuff.numberOfLines = 2
+        titleStuff.lineBreakMode = NSLineBreakMode.ByWordWrapping
         bodyContent.text = body
 
         bodyContent.editable = false
@@ -38,8 +40,23 @@ class PostViewControllerNew: UIViewController {
                 }
             }
         }
+        
+        let backButton = UIButton(frame: CGRectMake(0, self.view.frame.height - 30, 60, 30))
+        
+        backButton.setTitle("Back", forState: UIControlState.Normal)
+        backButton.layer.cornerRadius = 5
+        backButton.layer.borderWidth = 2
+        backButton.layer.borderColor = UIColor.blackColor().CGColor
+        backButton.backgroundColor = UIColor.grayColor()
+        backButton.addTarget(self, action: "backClicked", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(backButton)
 
         // Do any additional setup after loading the view.
+    }
+    
+    func backClicked(){
+        self.performSegueWithIdentifier("backSegue", sender: nil)
+        
     }
 
     override func didReceiveMemoryWarning() {

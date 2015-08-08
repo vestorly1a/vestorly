@@ -244,7 +244,6 @@ class SearchViewController: UIViewController, UISearchBarDelegate, UITableViewDa
         selectedCell = NSIndexPath(forRow: button.tag, inSection: 0)
         self.performSegueWithIdentifier("PostVCSegue", sender: self)
         
-        
     }
     
     
@@ -270,8 +269,11 @@ class SearchViewController: UIViewController, UISearchBarDelegate, UITableViewDa
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let destination = segue.destinationViewController as! PostViewControllerNew
-         
-        destination.titleStr  = articlesToDisplay["articles"][selectedCell.row]["title"].string
+        
+        let title = articlesToDisplay["articles"][selectedCell.row]["title"].string
+        destination.titleStr  = title
+        
+        print("print \(destination.titleStr)")
         let body = articlesToDisplay["articles"][selectedCell.row]["body"].string
         if body != nil {
             destination.body = body
