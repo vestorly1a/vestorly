@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F7EB0C22-CF16-4887-9CAE-E1EB00531F45</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Vestorly</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>108687B147A292770BAF8DC911377B174155649A</key>
+		<string>https://github.com/vestorly1a/vestorly.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/Vestorly/Vestorly.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>108687B147A292770BAF8DC911377B174155649A</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vestorly1a/vestorly.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>108687B147A292770BAF8DC911377B174155649A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>108687B147A292770BAF8DC911377B174155649A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Vestorly</string>
+		</dict>
+	</array>
+</dict>
+</plist>

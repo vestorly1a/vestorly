@@ -403,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Vestorly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Isometric.Vestorly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Vestorly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Isometric.Vestorly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +489,7 @@
 				BB7178DF1B7647AA00E19021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB7178E01B7647AA00E19021 /* Build configuration list for PBXNativeTarget "VestorlyTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +498,7 @@
 				BB7178E21B7647AA00E19021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB7178E31B7647AA00E19021 /* Build configuration list for PBXNativeTarget "VestorlyUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +507,7 @@
 				BB7178E51B7647AA00E19021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
