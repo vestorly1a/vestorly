@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		612A12271B7679F60019E068 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612A12261B7679F60019E068 /* PostsViewController.swift */; };
+		612A12291B767BC20019E068 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612A12281B767BC20019E068 /* PostViewController.swift */; };
 		614AFEB81B766391003697AE /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614AFEB71B766391003697AE /* PostTableViewCell.swift */; };
 		624262C01B4460CB00005CE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624262B21B4460CB00005CE3 /* AppDelegate.swift */; };
 		624262C11B4460CB00005CE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 624262B31B4460CB00005CE3 /* LaunchScreen.xib */; };
@@ -14,7 +16,6 @@
 		624262C31B4460CB00005CE3 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624262B81B4460CB00005CE3 /* ErrorHandling.swift */; };
 		624262C41B4460CB00005CE3 /* ParseLoginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624262B91B4460CB00005CE3 /* ParseLoginHelper.swift */; };
 		624262C51B4460CB00005CE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624262BA1B4460CB00005CE3 /* Images.xcassets */; };
-		624262C71B4460CB00005CE3 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624262BD1B4460CB00005CE3 /* PostsViewController.swift */; };
 		62551B6C1B06BF6D000913E4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B631B06BF6D000913E4 /* Bolts.framework */; };
 		62551B6D1B06BF6D000913E4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B641B06BF6D000913E4 /* FBSDKCoreKit.framework */; };
 		62551B6E1B06BF6D000913E4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B651B06BF6D000913E4 /* FBSDKLoginKit.framework */; };
@@ -126,6 +127,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		612A12261B7679F60019E068 /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		612A12281B767BC20019E068 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		614AFEB71B766391003697AE /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		624262B21B4460CB00005CE3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		624262B41B4460CB00005CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -135,7 +138,6 @@
 		624262BA1B4460CB00005CE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		624262BB1B4460CB00005CE3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		624262BC1B4460CB00005CE3 /* TemplateProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TemplateProject-Bridging-Header.h"; sourceTree = "<group>"; };
-		624262BD1B4460CB00005CE3 /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		62551B631B06BF6D000913E4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Frameworks/Bolts.framework; sourceTree = "<group>"; };
 		62551B641B06BF6D000913E4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Frameworks/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		62551B651B06BF6D000913E4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -191,10 +193,11 @@
 			isa = PBXGroup;
 			children = (
 				624262B21B4460CB00005CE3 /* AppDelegate.swift */,
-				624262BD1B4460CB00005CE3 /* PostsViewController.swift */,
 				624262B31B4460CB00005CE3 /* LaunchScreen.xib */,
 				624262B51B4460CB00005CE3 /* Main.storyboard */,
+				612A12261B7679F60019E068 /* PostsViewController.swift */,
 				614AFEB71B766391003697AE /* PostTableViewCell.swift */,
+				612A12281B767BC20019E068 /* PostViewController.swift */,
 				624262B71B4460CB00005CE3 /* Helpers */,
 				624262BA1B4460CB00005CE3 /* Images.xcassets */,
 				624262BB1B4460CB00005CE3 /* Info.plist */,
@@ -436,11 +439,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				612A12291B767BC20019E068 /* PostViewController.swift in Sources */,
 				624262C01B4460CB00005CE3 /* AppDelegate.swift in Sources */,
 				624262C41B4460CB00005CE3 /* ParseLoginHelper.swift in Sources */,
 				614AFEB81B766391003697AE /* PostTableViewCell.swift in Sources */,
-				624262C71B4460CB00005CE3 /* PostsViewController.swift in Sources */,
 				624262C31B4460CB00005CE3 /* ErrorHandling.swift in Sources */,
+				612A12271B7679F60019E068 /* PostsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

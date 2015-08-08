@@ -106,5 +106,63 @@
             </objects>
             <point key="canvasLocation" x="318" y="393"/>
         </scene>
+        <!--Post View Controller-->
+        <scene sceneID="hMb-ub-Rji">
+            <objects>
+                <viewController id="hPm-Py-9zi" customClass="PostViewController" customModule="TemplateProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KZz-fa-B0k"/>
+                        <viewControllerLayoutGuide type="bottom" id="F9x-A1-NFk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cj5-B3-dVR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZBv-tP-16u">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OwQ-YN-cOM">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="129"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tp2-ck-Dbd">
+                                        <rect key="frame" x="15" y="165" width="33" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0G8-ML-SYQ">
+                                        <rect key="frame" x="8" y="194" width="584" height="362"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="OwQ-YN-cOM" secondAttribute="bottom" constant="443" id="CTK-7I-kHq"/>
+                                    <constraint firstItem="OwQ-YN-cOM" firstAttribute="leading" secondItem="ZBv-tP-16u" secondAttribute="leading" id="I2o-LE-ccR"/>
+                                    <constraint firstAttribute="trailing" secondItem="OwQ-YN-cOM" secondAttribute="trailing" id="Pft-6k-PQ7"/>
+                                    <constraint firstItem="OwQ-YN-cOM" firstAttribute="top" secondItem="ZBv-tP-16u" secondAttribute="top" constant="28" id="RFT-bH-7g1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F9x-A1-NFk" firstAttribute="top" secondItem="ZBv-tP-16u" secondAttribute="bottom" id="0yE-9X-nbA"/>
+                            <constraint firstItem="ZBv-tP-16u" firstAttribute="leading" secondItem="cj5-B3-dVR" secondAttribute="leading" id="76E-Zo-TrP"/>
+                            <constraint firstItem="ZBv-tP-16u" firstAttribute="top" secondItem="cj5-B3-dVR" secondAttribute="top" id="Cl8-im-9VW"/>
+                            <constraint firstAttribute="trailing" secondItem="ZBv-tP-16u" secondAttribute="trailing" id="w7z-zy-b71"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cover" destination="OwQ-YN-cOM" id="SWb-q6-BAj"/>
+                        <outlet property="title" destination="Tp2-ck-Dbd" id="12K-BJ-DIs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ED0-vi-64m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1029" y="246"/>
+        </scene>
     </scenes>
 </document>

@@ -21,6 +21,9 @@ class PostsViewController: UITableViewController {
     
     @IBOutlet weak var date: UILabel!
     
+   // @IBOutlet weak var tableView: UITableView!
+
+    
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -35,7 +38,7 @@ class PostsViewController: UITableViewController {
 extension PostsViewController: UITableViewDataSource {
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 0
+        return 1
         
     }
     
@@ -45,7 +48,7 @@ extension PostsViewController: UITableViewDataSource {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("PostCell") as! PostTableViewCell
-        
+        cell.imageView
         
         return cell
     }

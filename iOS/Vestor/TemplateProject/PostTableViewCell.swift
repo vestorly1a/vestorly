@@ -1,5 +1,5 @@
 import UIKit
-import Bond
+
 
 
 class PostTableViewCell: UITableViewCell {
@@ -17,7 +17,7 @@ class PostTableViewCell: UITableViewCell {
     @IBOutlet weak var authorPic: UIImageView!
     //MARK: Initialization
     
-    
+    func view
     
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
