@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		300714F7CA09537D29D99844 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1F7D73C1F1E59C0589B434 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		9437BF060837A5789801AF13 /* Pods_Vestorly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883AFBE494E059D58CAEAD50 /* Pods_Vestorly.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BB40AC6A1B7653A90079C6F1 /* SecondExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40AC691B7653A90079C6F1 /* SecondExampleVC.swift */; };
+		BB40AC6C1B7653AE0079C6F1 /* SwiftPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB40AC6B1B7653AE0079C6F1 /* SwiftPages.swift */; };
 		BB7178B61B7647AA00E19021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7178B51B7647AA00E19021 /* AppDelegate.swift */; };
 		BB7178B81B7647AA00E19021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7178B71B7647AA00E19021 /* ViewController.swift */; };
 		BB7178BB1B7647AA00E19021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7178B91B7647AA00E19021 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 		73B79652C5C2AABE99221D94 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8575D1BCF608CE6F69254CE9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		883AFBE494E059D58CAEAD50 /* Pods_Vestorly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vestorly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB40AC691B7653A90079C6F1 /* SecondExampleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondExampleVC.swift; sourceTree = "<group>"; };
+		BB40AC6B1B7653AE0079C6F1 /* SwiftPages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPages.swift; sourceTree = "<group>"; };
 		BB7178B21B7647AA00E19021 /* Vestorly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vestorly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7178B51B7647AA00E19021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB7178B71B7647AA00E19021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				BB7178B51B7647AA00E19021 /* AppDelegate.swift */,
 				BB7178B71B7647AA00E19021 /* ViewController.swift */,
 				BB7178B91B7647AA00E19021 /* Main.storyboard */,
+				BB40AC6B1B7653AE0079C6F1 /* SwiftPages.swift */,
+				BB40AC691B7653A90079C6F1 /* SecondExampleVC.swift */,
 				BB7178BF1B7647AA00E19021 /* Assets.xcassets */,
 				BB7178C11B7647AA00E19021 /* LaunchScreen.storyboard */,
 				BB7178C41B7647AA00E19021 /* Info.plist */,
@@ -338,6 +344,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB7178BE1B7647AA00E19021 /* Vestorly.xcdatamodeld in Sources */,
+				BB40AC6C1B7653AE0079C6F1 /* SwiftPages.swift in Sources */,
+				BB40AC6A1B7653A90079C6F1 /* SecondExampleVC.swift in Sources */,
 				BB7178B81B7647AA00E19021 /* ViewController.swift in Sources */,
 				BB7178B61B7647AA00E19021 /* AppDelegate.swift in Sources */,
 			);
