@@ -219,25 +219,35 @@ class SearchViewController: UIViewController, UISearchBarDelegate, UITableViewDa
 //        selectedCell = NSIndexPath(forRow: button.tag, inSection: 0)
 //        tableView.reloadSections(NSIndexSet, withRowAnimation: <#T##UITableViewRowAnimation#>)
         
-        let URL = NSURL(string: "https://staging.vestorly.com/api/v2/articles?vestorly_auth=eyJwYXlsb2FkIjoiNTVjNTU0YTA3ZDY4NzhhN2FjMDAwMDAxIiwiY3JlYXRlZF9vbiI6MTQzOTA0NTc5NCwic2lnbmF0dXJlIjoiZGRtaE1ZNFo4c0dFSmdHaVhvZ1lzcVc4VTdGZ1JkaHNkNiswS2ZFYThWST0ifQ&limit=300")
-        let mutableURLRequest = NSMutableURLRequest(URL: URL!)
-        mutableURLRequest.HTTPMethod  = "GET"
-        Alamofire.request(mutableURLRequest).responseJSON(completionHandler: { (req, resp, json, error) -> Void in
-            if error !=  nil {
-                print("Error")
-                print(req)
-                print(resp)
-                print(error)
-            }else{
-                print(json)
-                if json != nil {
-                    self.articlesToDisplay = JSON(json!)
-                    self.tableView.reloadSections(NSIndexSet(index: 0), withRowAnimation: UITableViewRowAnimation.Left)
-                    //                    self.loadAllImages(self.articlesToDisplay)
-                }
-            }
-        })
+//        let URL = NSURL(string: "https://staging.vestorly.com/api/v2/articles?vestorly_auth=eyJwYXlsb2FkIjoiNTVjNTU0YTA3ZDY4NzhhN2FjMDAwMDAxIiwiY3JlYXRlZF9vbiI6MTQzOTA0NTc5NCwic2lnbmF0dXJlIjoiZGRtaE1ZNFo4c0dFSmdHaVhvZ1lzcVc4VTdGZ1JkaHNkNiswS2ZFYThWST0ifQ&limit=300")
+//        let mutableURLRequest = NSMutableURLRequest(URL: URL!)
+//        mutableURLRequest.HTTPMethod  = "GET"
+//        Alamofire.request(mutableURLRequest).responseJSON(completionHandler: { (req, resp, json, error) -> Void in
+//            if error !=  nil {
+//                print("Error")
+//                print(req)
+//                print(resp)
+//                print(error)
+//            }else{
+//                print(json)
+//                if json != nil {
+//                    self.articlesToDisplay = JSON(json!)
+//                    self.tableView.reloadSections(NSIndexSet(index: 0), withRowAnimation: UITableViewRowAnimation.Left)
+//                    //                    self.loadAllImages(self.articlesToDisplay)
+//                }
+//                
+//                
+//
+//                
+//            }
+//        })
+        selectedCell = NSIndexPath(forRow: button.tag, inSection: 0)
+        self.performSegueWithIdentifier("PostVCSegue", sender: self)
+        
+        
     }
+    
+    
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         print("cell selected")
@@ -254,14 +264,26 @@ class SearchViewController: UIViewController, UISearchBarDelegate, UITableViewDa
     }
     
     
-    /*
+
     // MARK: - Navigation
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let destination = segue.destinationViewController as! PostViewControllerNew
+         
+        destination.titleStr  = articlesToDisplay["articles"][selectedCell.row]["title"].string
+        let body = articlesToDisplay["articles"][selectedCell.row]["body"].string
+        if body != nil {
+            destination.body = body
+        }
+        destination.imageStr = articlesToDisplay["articles"][selectedCell.row]["image_url"].string
+//        destination. = articlesToDisplay["articles"][selectedCell.row]["body"].string
+//        destination.coverImage.image = articlesToDisplay
+        
+        
     // Get the new view controller using segue.destinationViewController.
     // Pass the selected object to the new view controller.
     }
-    */
+
     
 }

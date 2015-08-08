@@ -291,13 +291,10 @@
                                             <outlet property="image" destination="lhe-HB-wAh" id="jsA-mr-HV5"/>
                                             <outlet property="summary" destination="4MR-7e-MSx" id="7aL-cW-Q7c"/>
                                             <outlet property="title" destination="TgU-Rp-9ih" id="vCn-5x-Hk0"/>
+                                            <segue destination="QJG-oN-ksW" kind="show" identifier="PostVCSegue" id="cPP-Kj-p8j"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="KXn-kw-Ry5" id="5n9-jc-AxZ"/>
-                                    <outlet property="delegate" destination="KXn-kw-Ry5" id="tcY-5Z-3XM"/>
-                                </connections>
                             </tableView>
                         </subviews>
                     </view>
@@ -305,6 +302,63 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wwa-f5-6CX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-144" y="815"/>
+        </scene>
+        <!--Post View Controller New-->
+        <scene sceneID="YMj-Er-QWS">
+            <objects>
+                <viewController id="QJG-oN-ksW" customClass="PostViewControllerNew" customModule="Vestorly" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="25e-9T-qKe"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gdz-ss-ZQh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qeh-Kn-JCa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SB0-Q3-iRJ">
+                                <rect key="frame" x="20" y="210" width="34" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bnA-iB-oRZ">
+                                <rect key="frame" x="0.0" y="28" width="600" height="175"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="175" id="JKw-Mb-FOv"/>
+                                    <constraint firstAttribute="width" constant="600" id="wFJ-cO-V4u"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kzU-pE-2Ht">
+                                <rect key="frame" x="9" y="251" width="571" height="341"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Gdz-ss-ZQh" firstAttribute="top" secondItem="SB0-Q3-iRJ" secondAttribute="bottom" constant="369" id="1d3-rT-dWk"/>
+                            <constraint firstItem="Gdz-ss-ZQh" firstAttribute="top" secondItem="kzU-pE-2Ht" secondAttribute="bottom" constant="8" symbolic="YES" id="2dT-eN-vB6"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="SB0-Q3-iRJ" secondAttribute="leading" id="A3p-jr-RUB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SB0-Q3-iRJ" secondAttribute="trailing" constant="526" id="G3M-fN-2tp"/>
+                            <constraint firstAttribute="trailing" secondItem="bnA-iB-oRZ" secondAttribute="trailing" id="SZz-Og-YN2"/>
+                            <constraint firstItem="bnA-iB-oRZ" firstAttribute="top" secondItem="25e-9T-qKe" secondAttribute="bottom" constant="12" id="XWW-QL-jrt"/>
+                            <constraint firstItem="bnA-iB-oRZ" firstAttribute="leading" secondItem="Qeh-Kn-JCa" secondAttribute="leading" id="f3d-QU-283"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kzU-pE-2Ht" secondAttribute="trailing" id="oRT-3g-dad"/>
+                            <constraint firstItem="kzU-pE-2Ht" firstAttribute="leading" secondItem="Qeh-Kn-JCa" secondAttribute="leadingMargin" constant="-11" id="yWo-wu-Vaw"/>
+                            <constraint firstItem="kzU-pE-2Ht" firstAttribute="top" secondItem="25e-9T-qKe" secondAttribute="bottom" constant="231" id="zUS-r0-hTh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bodyContent" destination="kzU-pE-2Ht" id="BQV-W3-Npi"/>
+                        <outlet property="coverImage" destination="bnA-iB-oRZ" id="WRI-od-unx"/>
+                        <outlet property="titleStuff" destination="SB0-Q3-iRJ" id="nNG-9q-O12"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="khm-kI-LZb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-111" y="1986"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dtE-q5-SrO">
@@ -373,14 +427,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fHa-H7-s7c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3049" y="815"/>
-        </scene>
-        <!--Posts View Controller-->
-        <scene sceneID="GQ9-eB-8Hg">
-            <objects>
-                <tableViewController id="KXn-kw-Ry5" customClass="PostsViewController" customModule="Vestorly" customModuleProvider="target" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Isa-XU-fQd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="342" y="1561"/>
         </scene>
     </scenes>
     <resources>
