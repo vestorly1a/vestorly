@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB7178B61B7647AA00E19021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7178B51B7647AA00E19021 /* AppDelegate.swift */; };
+		BB7178B81B7647AA00E19021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7178B71B7647AA00E19021 /* ViewController.swift */; };
+		BB7178BB1B7647AA00E19021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7178B91B7647AA00E19021 /* Main.storyboard */; };
+		BB7178BE1B7647AA00E19021 /* Vestorly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB7178BC1B7647AA00E19021 /* Vestorly.xcdatamodeld */; };
+		BB7178C01B7647AA00E19021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7178BF1B7647AA00E19021 /* Assets.xcassets */; };
+		BB7178C31B7647AA00E19021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7178C11B7647AA00E19021 /* LaunchScreen.storyboard */; };
+		BB7178CE1B7647AA00E19021 /* VestorlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7178CD1B7647AA00E19021 /* VestorlyTests.swift */; };
+		BB7178D91B7647AA00E19021 /* VestorlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7178D81B7647AA00E19021 /* VestorlyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB7178CA1B7647AA00E19021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB7178AA1B7647AA00E19021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB7178B11B7647AA00E19021;
+			remoteInfo = Vestorly;
+		};
+		BB7178D51B7647AA00E19021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB7178AA1B7647AA00E19021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB7178B11B7647AA00E19021;
+			remoteInfo = Vestorly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB7178B21B7647AA00E19021 /* Vestorly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vestorly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7178B51B7647AA00E19021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB7178B71B7647AA00E19021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB7178BA1B7647AA00E19021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB7178BD1B7647AA00E19021 /* Vestorly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vestorly.xcdatamodel; sourceTree = "<group>"; };
+		BB7178BF1B7647AA00E19021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB7178C21B7647AA00E19021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB7178C41B7647AA00E19021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7178C91B7647AA00E19021 /* VestorlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VestorlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7178CD1B7647AA00E19021 /* VestorlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VestorlyTests.swift; sourceTree = "<group>"; };
+		BB7178CF1B7647AA00E19021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7178D41B7647AA00E19021 /* VestorlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VestorlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7178D81B7647AA00E19021 /* VestorlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VestorlyUITests.swift; sourceTree = "<group>"; };
+		BB7178DA1B7647AA00E19021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB7178AF1B7647AA00E19021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7178C61B7647AA00E19021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7178D11B7647AA00E19021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB7178A91B7647AA00E19021 = {
+			isa = PBXGroup;
+			children = (
+				BB7178B41B7647AA00E19021 /* Vestorly */,
+				BB7178CC1B7647AA00E19021 /* VestorlyTests */,
+				BB7178D71B7647AA00E19021 /* VestorlyUITests */,
+				BB7178B31B7647AA00E19021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB7178B31B7647AA00E19021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB7178B21B7647AA00E19021 /* Vestorly.app */,
+				BB7178C91B7647AA00E19021 /* VestorlyTests.xctest */,
+				BB7178D41B7647AA00E19021 /* VestorlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB7178B41B7647AA00E19021 /* Vestorly */ = {
+			isa = PBXGroup;
+			children = (
+				BB7178B51B7647AA00E19021 /* AppDelegate.swift */,
+				BB7178B71B7647AA00E19021 /* ViewController.swift */,
+				BB7178B91B7647AA00E19021 /* Main.storyboard */,
+				BB7178BF1B7647AA00E19021 /* Assets.xcassets */,
+				BB7178C11B7647AA00E19021 /* LaunchScreen.storyboard */,
+				BB7178C41B7647AA00E19021 /* Info.plist */,
+				BB7178BC1B7647AA00E19021 /* Vestorly.xcdatamodeld */,
+			);
+			path = Vestorly;
+			sourceTree = "<group>";
+		};
+		BB7178CC1B7647AA00E19021 /* VestorlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB7178CD1B7647AA00E19021 /* VestorlyTests.swift */,
+				BB7178CF1B7647AA00E19021 /* Info.plist */,
+			);
+			path = VestorlyTests;
+			sourceTree = "<group>";
+		};
+		BB7178D71B7647AA00E19021 /* VestorlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB7178D81B7647AA00E19021 /* VestorlyUITests.swift */,
+				BB7178DA1B7647AA00E19021 /* Info.plist */,
+			);
+			path = VestorlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB7178B11B7647AA00E19021 /* Vestorly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7178DD1B7647AA00E19021 /* Build configuration list for PBXNativeTarget "Vestorly" */;
+			buildPhases = (
+				BB7178AE1B7647AA00E19021 /* Sources */,
+				BB7178AF1B7647AA00E19021 /* Frameworks */,
+				BB7178B01B7647AA00E19021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vestorly;
+			productName = Vestorly;
+			productReference = BB7178B21B7647AA00E19021 /* Vestorly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB7178C81B7647AA00E19021 /* VestorlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7178E01B7647AA00E19021 /* Build configuration list for PBXNativeTarget "VestorlyTests" */;
+			buildPhases = (
+				BB7178C51B7647AA00E19021 /* Sources */,
+				BB7178C61B7647AA00E19021 /* Frameworks */,
+				BB7178C71B7647AA00E19021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB7178CB1B7647AA00E19021 /* PBXTargetDependency */,
+			);
+			name = VestorlyTests;
+			productName = VestorlyTests;
+			productReference = BB7178C91B7647AA00E19021 /* VestorlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB7178D31B7647AA00E19021 /* VestorlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7178E31B7647AA00E19021 /* Build configuration list for PBXNativeTarget "VestorlyUITests" */;
+			buildPhases = (
+				BB7178D01B7647AA00E19021 /* Sources */,
+				BB7178D11B7647AA00E19021 /* Frameworks */,
+				BB7178D21B7647AA00E19021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB7178D61B7647AA00E19021 /* PBXTargetDependency */,
+			);
+			name = VestorlyUITests;
+			productName = VestorlyUITests;
+			productReference = BB7178D41B7647AA00E19021 /* VestorlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB7178AA1B7647AA00E19021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Avery Lamp";
+				TargetAttributes = {
+					BB7178B11B7647AA00E19021 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BB7178C81B7647AA00E19021 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BB7178B11B7647AA00E19021;
+					};
+					BB7178D31B7647AA00E19021 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BB7178B11B7647AA00E19021;
+					};
+				};
+			};
+			buildConfigurationList = BB7178AD1B7647AA00E19021 /* Build configuration list for PBXProject "Vestorly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB7178A91B7647AA00E19021;
+			productRefGroup = BB7178B31B7647AA00E19021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB7178B11B7647AA00E19021 /* Vestorly */,
+				BB7178C81B7647AA00E19021 /* VestorlyTests */,
+				BB7178D31B7647AA00E19021 /* VestorlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB7178B01B7647AA00E19021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7178C31B7647AA00E19021 /* LaunchScreen.storyboard in Resources */,
+				BB7178C01B7647AA00E19021 /* Assets.xcassets in Resources */,
+				BB7178BB1B7647AA00E19021 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7178C71B7647AA00E19021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7178D21B7647AA00E19021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB7178AE1B7647AA00E19021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7178BE1B7647AA00E19021 /* Vestorly.xcdatamodeld in Sources */,
+				BB7178B81B7647AA00E19021 /* ViewController.swift in Sources */,
+				BB7178B61B7647AA00E19021 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7178C51B7647AA00E19021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7178CE1B7647AA00E19021 /* VestorlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7178D01B7647AA00E19021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7178D91B7647AA00E19021 /* VestorlyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB7178CB1B7647AA00E19021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB7178B11B7647AA00E19021 /* Vestorly */;
+			targetProxy = BB7178CA1B7647AA00E19021 /* PBXContainerItemProxy */;
+		};
+		BB7178D61B7647AA00E19021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB7178B11B7647AA00E19021 /* Vestorly */;
+			targetProxy = BB7178D51B7647AA00E19021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB7178B91B7647AA00E19021 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7178BA1B7647AA00E19021 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB7178C11B7647AA00E19021 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7178C21B7647AA00E19021 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB7178DB1B7647AA00E19021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB7178DC1B7647AA00E19021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB7178DE1B7647AA00E19021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vestorly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Isometric.Vestorly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB7178DF1B7647AA00E19021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vestorly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Isometric.Vestorly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB7178E11B7647AA00E19021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VestorlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Isometric.VestorlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vestorly.app/Vestorly";
+			};
+			name = Debug;
+		};
+		BB7178E21B7647AA00E19021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VestorlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Isometric.VestorlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vestorly.app/Vestorly";
+			};
+			name = Release;
+		};
+		BB7178E41B7647AA00E19021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VestorlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Isometric.VestorlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vestorly;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BB7178E51B7647AA00E19021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VestorlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Isometric.VestorlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vestorly;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB7178AD1B7647AA00E19021 /* Build configuration list for PBXProject "Vestorly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7178DB1B7647AA00E19021 /* Debug */,
+				BB7178DC1B7647AA00E19021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7178DD1B7647AA00E19021 /* Build configuration list for PBXNativeTarget "Vestorly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7178DE1B7647AA00E19021 /* Debug */,
+				BB7178DF1B7647AA00E19021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB7178E01B7647AA00E19021 /* Build configuration list for PBXNativeTarget "VestorlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7178E11B7647AA00E19021 /* Debug */,
+				BB7178E21B7647AA00E19021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB7178E31B7647AA00E19021 /* Build configuration list for PBXNativeTarget "VestorlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7178E41B7647AA00E19021 /* Debug */,
+				BB7178E51B7647AA00E19021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB7178BC1B7647AA00E19021 /* Vestorly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB7178BD1B7647AA00E19021 /* Vestorly.xcdatamodel */,
+			);
+			currentVersion = BB7178BD1B7647AA00E19021 /* Vestorly.xcdatamodel */;
+			path = Vestorly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB7178AA1B7647AA00E19021 /* Project object */;
+}
