@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63C17A9AFB8A36BC42CF711C"
+               BlueprintIdentifier = "62FBD2D7CA9836DEB5668522"
                BuildableName = "Pods_Vestorly.framework"
                BlueprintName = "Pods-Vestorly"
                ReferencedContainer = "container:Pods.xcodeproj">

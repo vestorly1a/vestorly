@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5DF387F4-9496-45A0-8878-14B9B66ADAC3</string>
+	<string>1E254A9A-8C83-4641-BF0A-240C8BDE4AED</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Vestorly</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>108687B147A292770BAF8DC911377B174155649A</key>
 		<string>https://github.com/vestorly1a/vestorly.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOS/Vestorly/Vestorly.xcodeproj/project.xcworkspace</string>
+	<string>iOS/Vestorly/Vestorly.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>108687B147A292770BAF8DC911377B174155649A</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/vestorly1a/vestorly.git</string>

@@ -3,7 +3,7 @@
 //  Vestorly
 //
 //  Created by Avery Lamp on 8/8/15.
-//  Copyright © 2015 Avery Lamp. All rights reserved.
+//  Copyright (c) 2015 Avery Lamp. All rights reserved.
 //
 
 import UIKit

@@ -3,11 +3,11 @@
 //  VestorlyTests
 //
 //  Created by Avery Lamp on 8/8/15.
-//  Copyright © 2015 Avery Lamp. All rights reserved.
+//  Copyright (c) 2015 Avery Lamp. All rights reserved.
 //
 
+import UIKit
 import XCTest
-@testable import Vestorly
 
 class VestorlyTests: XCTestCase {
     
@@ -23,12 +23,12 @@ class VestorlyTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssert(true, "Pass")
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measureBlock() {
             // Put the code you want to measure the time of here.
         }
     }
